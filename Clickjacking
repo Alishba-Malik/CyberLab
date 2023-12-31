@@ -1,1 +1,81 @@
+# CLICKJACKING:
 
+- Primarily web-based attack
+- UI redressing attack
+- Deceptive attack
+- manipulate user interfaces
+- Used to trick users into interacting with malicious elements unknowingly.
+
+# How it arises:
+
+## 1.**Deceptive Overlay Techniques:**
+
+- **Invisible Elements:**
+
+Attackers overlay invisible or transparent elements, making them visually undetectable.
+
+Likejacking
+Button jacking
+Cursorjacking
+
+- **Hidden Iframes:**
+
+Malicious iframes are positioned over legitimate content to deceive users.
+
+## 2.**Misleading User Perception:**
+
+- **Altering User Interaction:** Users are led to believe they're interacting with visible content when, in reality, their actions affect hidden elements.
+- **Manipulating UI Elements:** Deceptive placement of elements tricks users into performing unintended actions.
+
+        UI redressing
+
+# Exploitation:
+
+Explaining the exploitation from a website autho by okta  https://auth0.com/blog/preventing-clickjacking-attacks/ 
+
+## Setting up the environment:
+
+`git clone https://github.com/auth0-blog/clickjacking-sample-app.git`
+
+use this command to clone the repository
+
+`npm install`
+
+ `npm start`
+
+## Launch the clickjacking attack:
+
+`• node attacker-server.js`
+
+open your browser and navigate to the [http://localhost:3000](http://localhost:3000/)
+
+open a new tab or a new instance of your browser and navigate to [http://localhost:4000](http://localhost:4000/).
+
+• opening the developer tool of your browser and analyzing the network traffic while clicking the button
+
+• HTTP POST request to the http://localhost:3000/purchase
+
+## **Anatomy of the attack:**
+
+- Move to the views folder and open the index.ejs
+- The visible part of the page is defined by the div with the attacker website identifier.
+- The iframe with the vulnerable_website id points to the movie website, but actually, you don't see it on the attacker's page.
+- The trick that connects the two websites is performed by the CSS rules defining the position and visibility of those elements
+- the vulnerable_websiteiframe has assigned the 0.0value for its opacity, which makes it transparent.
+- it is positioned so that it overlaps the attacker_websitediv.
+- the iframe overlaps the div by adjusting the opacity value of the iframe to 0.3
+
+# Patching:
+
+## Client-side defenses:
+
+• *frame-busting*
+
+• If the page of the vulnerable website is not within the browser's topmost window, it is reloaded in the top window.
+
+• replaces the attacker's page with the hidden page
+
+• `git clone -b client-side-defenses https://github.com/auth0-blog/clickjacking-sample-app.git`
+
+- the onbeforeunloadevent, the attacker attempts to disable the current page dismissal.
+- This approach could not work in some browsers since it may require user confirmation
