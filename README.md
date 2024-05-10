@@ -14,18 +14,18 @@
 
 <div align="center">
  
- 🔭 I’m currently working on _**Bot-Net Mitigation**_
+ 🔭 I’m currently working on _**DarkNet-A Botnet tool**_
  
  🌱 I’m currently learning _**Python**_, _**C++**_, _**Linux**_
 
 💬 Ask me about _**Calligraphy**_, _**Tech-Startups**_, or _**anything**_ [.....](https://github.com/Alishba-Malik/Alishba-Malik/issues)
 
-⚡ Fun Fact: _**My cat can walk across the keyboard and get a higher score than me...**_
+⚡ Fun Fact: _**Chill. It's only chaos**_
 
  </div>
  
 <div align="center"> 
-  <a href="mailto:alishbamalik1080@gmail.com">
+  <a href="mailto:alishbamalick@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
   </a>
 </div>
@@ -45,24 +45,10 @@
 <br/>
 <hr/>
 
-<div align="center">
-  <h2> Here, watch me play Snake Game 🐍</h2>
-  <br>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" />
-  
-  <br/><br/><br/>
-</div>
+
 
 <hr/>
 
-<h2 align="center">My GitHub Stats ⬇️</h2>
-
-<!-- GitHub Stats  & Top Lang -->
-<p align = "center">
-  <img src = "https://github-readme-stats.vercel.app/api?username=DenialArcus&show_icons=true&theme=highcontrast&title_color=f10000&icon_color=f040983">
-  <br>
-  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=DenialArcus&theme=highcontrast&title_color=f10000&icon_color=f040983">
-</p>
 
 
 <hr/>
