@@ -16,7 +16,7 @@
  
  🔭 I’m currently working on _**DarkNet-A Botnet tool**_
  
- 🌱 I’m currently learning _**Python**_, _**C++**_, _**Linux**_
+ 🌱 I’m currently learning _**Python**_, _**C++**_, _**Linux**_, _**React.js**_
 
 💬 Ask me about _**Calligraphy**_, _**Tech-Startups**_, or _**anything**_ [.....](https://github.com/Alishba-Malik/Alishba-Malik/issues)
 
@@ -39,7 +39,7 @@
 <br/>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=git,github,react,html,css,vscode,linux" /> 
-    <img src="https://skillicons.dev/icons?i=c,cpp,cs,python,tailwind,firebase,java,javascript,nodejs,nextjs" /><br> <!-- figma,mongodb,flask,,mysqltypescript,express,mongodb,r, -->
+    <img src="https://skillicons.dev/icons?i=c,cpp,cs,python,javascript,nodejs,nextjs" /><br> <!-- figma,mongodb,flask,,mysqltypescript,express,mongodb,r, -->
 </div>
 
 <br/>
